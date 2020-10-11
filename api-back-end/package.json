@@ -2,10 +2,10 @@
   "name": "api-back-end",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "start": "nodemon index.js",
-    "server": "nodemon index.js",
+    "start": "nodemon server.js",
+    "server": "nodemon server.js",
     "client": "cd ../client-front-end && npm start",
     "dev": "concurrently -n 'server,client' -c 'cyan,magenta' \"npm run server\" \"npm run client\""
   },
